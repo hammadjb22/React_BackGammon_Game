@@ -586,11 +586,11 @@ class App extends Component {
                             checkers={this.state.outSideBar}
                             currentPosition={this.state.currentPosition}
                             undoHandler={this.undoHandler}
-                        />
-                    </Board>
+                        /> 
+                     </Board>
 
                 </div>
-                {this.getMenu()}
+    {this.getMenu()}
 
             </div>
 

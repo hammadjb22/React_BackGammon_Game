@@ -251,7 +251,6 @@ class Menu extends Component {
 
         return (
             <div id="modal" >
-
                 <div id="modal-content" className={this.state.menuWidth}>
                     <div id="modal-header">
                         {this.state.canClose ? <div id="modal-close" onClick={this.props.toggleMenuHandler}>X</div> : null}
